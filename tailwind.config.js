@@ -2,7 +2,11 @@
 export default {
   content: ["./src/**/*.{html,js,tsx,jsx }"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'noto-sans-georgian': ['Noto Sans Georgian', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };

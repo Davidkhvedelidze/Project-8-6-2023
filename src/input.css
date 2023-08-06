@@ -18,3 +18,18 @@
   background: linear-gradient(0deg, #5c5c5c 0%, #5c5c5c 100%),
     rgba(153, 153, 153, 0.97);
 }
+
+@layer base {
+  body {
+    font-family: 'Noto Sans Georgian', sans-serif;
+  }
+}
+.bg-rounded {
+  background: conic-gradient(
+    from 0deg,
+    #2b6cb0 0%,
+    #2b6cb0 25%,
+    #e2e8f0 25%,
+    #e2e8f0 100%
+  );
+}
